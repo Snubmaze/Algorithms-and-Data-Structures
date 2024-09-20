@@ -23,6 +23,11 @@ for i in arr:
     if abs(i)>10**9:
         print(f"{i} is out of range")
         exit()
+        
+if n!= len(arr):
+    print(f"array should contain {n} elements")
+    exit()
+    
 else:
     print(insertion_sort(arr))
     finish=time.time()
