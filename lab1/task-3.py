@@ -1,6 +1,4 @@
-file_name=input("enter file name: ")
-
-nums=open(file_name,'r').read()
+nums=open('input.txt','r').read()
 
 space_ind=nums.index(" ")
 
